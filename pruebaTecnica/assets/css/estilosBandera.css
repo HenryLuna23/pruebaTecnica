@@ -1,0 +1,96 @@
+
+/*
+#00205B-azul
+#BA0C2F-rojo
+*/
+    *{margin: 0;padding: 0}
+    .contenedor{
+        width: 90%;
+        max-width: 1000px;/*tamaño maximo del contenedor*/
+        margin: auto;/*centrado del contenedor */
+    }
+
+    .contenedor{
+        width: 100%;
+        height: 70vh;
+        display: flex;/*haciendo que el copntenedor sea como un bloque*/
+        align-items: center;/*para centrar el contenedor*/
+        justify-content: center;
+    }
+    /*elemento base para la creacion de la bandera*/
+    .bandera{
+        width: 100%;
+        height: 80%;
+        background: #00205B;
+        display: flex;
+      }
+   
+   .left{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: space-between;/* alinear el primer elemento al inicio, el último al final */
+   }
+
+    .up_left{
+        width: 20%;
+        height: 50%;
+        background: #ffffff;
+    }
+
+
+    .left{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .up_left{
+        width: 90%;
+        height: 40%;
+        background: #ffffff;
+    }
+    
+    .down_left{
+        width: 90%;
+        height: 40%;
+        display: flex;
+        align-items: flex-end;/* Alinear items desde el final */
+        background: #ffffff;
+    }.color_bandera{
+        width: 90%;
+        height: 90%;
+        background:red;
+    }
+    
+    .right{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    
+    .up_right{
+        width: 95%;
+        height: 40%;
+        display: flex;
+        justify-content: flex-end;
+        background: #ffffff;
+    }
+    
+    .down_right  {
+        width: 95%;
+        height: 40%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        background: #ffffff;
+    }
+    .color_bandera2{
+        width: 95%;
+        height: 90%;
+        background:red;
+    }   
